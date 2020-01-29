@@ -1,0 +1,206 @@
+*{
+    padding: 0;
+    margin: 0;  
+}
+body{
+    width: 1299px;
+    background-color: hsl(0, 100%, 74%);
+    background-image: url('../images/bg-intro-desktop.png');
+}
+#left_div{
+    margin: 300px 0 0 150px;
+    width:500px;
+    float: left;
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: left;
+}
+#left_div h1{
+   font-size: 48px;
+   padding-bottom: 20px;
+   line-height: 1.2em;
+}
+#left_div p{
+    color: #ddd;
+}
+#form_div{
+    margin:100px 0 0 40px;
+    float: left;
+    width: 500px;
+    font-size: 16px;
+    font-family: Poppins;
+}
+#form_div span.top_form{
+    height: 80px;
+    background-color: hsl(249, 30%, 66%);
+}
+.top_form p{
+    color: #ffffff;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+    background: hsl(248, 30%, 49%);
+}
+#form_div form{
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin-top: 15px;
+}
+#form_div form input{
+    display: inline;
+    margin: 10px;
+    width: 400px;
+    font-size: 16px;
+    font-family: Poppins;
+    border-radius: 5px;
+    padding:10px 0 10px 20px;
+    margin-left: 20px;
+    border: 1px solid #ddd;
+}
+
+#form_div form input:focus{
+    border: 1px solid #000;
+}
+
+#form_div form input[type=submit]{
+    background: hsl(154, 59%, 51%);
+    color: #ffffff;
+    padding-right: 20px;
+    font-weight: 600;
+}
+#form_div form input[placeholder]{
+    color: #000000;
+    font-family: Poppins;
+}
+#form_div form p{
+    font-family: Poppins;
+    font-size: 10px;
+    color: #666;
+    margin-left: 50px;
+}
+#form_div form p span{
+    color: hsl(0, 100%, 74%);
+
+}
+#footer{
+    width: 800px;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 36px;
+    margin-top: 30px;
+    margin-left: 150px;
+    float: left;
+}
+
+
+
+@media (max-width: 375px){
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    body{
+        width: 350px;
+        background-color: hsl(0, 100%, 74%);
+        background-image: url('../images/bg-intro-mobile.png');
+    }
+    #left_div{
+        width:270px;
+        margin: 50px 10px 10px 20px;
+        float: left;
+        font-size: 16px;
+        font-family: Poppins;
+        font-weight: 700;
+        color: #ffffff;
+        text-align: center;
+    }
+    #left_div h1{
+       font-size: 28px;
+       padding-bottom: 20px;
+       line-height: 1.2em;
+    }
+    #left_div p{
+        color: #ddd;
+    }
+    #form_div{
+        margin:10px 0 0 30px;
+        float: left;
+        width: 300px;
+        font-size: 16px;
+        font-family: Poppins;
+
+    }
+    #form_div span.top_form{
+        height: 20px;
+        background-color: hsl(249, 30%, 66%);
+    }
+    .top_form p{
+        color: #ffffff;
+        padding: 5px;
+        margin-left: 10px;
+        text-align: center;
+        border-radius: 10px;
+        z-index: 10;
+        background: hsl(248, 30%, 49%);
+    }
+    #form_div form{
+        background-color: #ffffff;
+        border-radius: 10px;
+        padding: 10px 10px;
+        margin-left: 5px;
+        margin-top: 15px;
+        z-index: 3;
+    }
+    #form_div form input{
+        display: inline;
+        margin: 10px;
+        width: 200px;
+        font-size: 16px;
+        font-family: Poppins;
+        border-radius: 5px;
+        padding:10px 0 5px 20px;
+        margin-left: 20px;
+        border: 1px solid #ddd;
+    }
+
+    #form_div form input:focus{
+        border: 1px solid #000;
+    }
+
+    #form_div form input[type=submit]{
+        background: hsl(154, 59%, 51%);
+        color: #ffffff;
+        padding-right: 20px;
+        font-weight: 600;
+    }
+    #form_div form input[placeholder]{
+        color: #000000;
+        font-family: Poppins;
+    }
+    #form_div form p{
+        font-family: Poppins;
+        font-size: 10px;
+        color: #666;
+        text-align: center;
+        margin-left: 20px;
+    }
+    #form_div form p span{
+        color: hsl(0, 100%, 74%);
+
+    }
+    #footer{
+        width: 200px;
+        text-align: left;
+        font-family: Poppins;
+        font-size: 36px;
+        margin-top: 10px;
+        margin-left:40px;
+        float: left;
+    }
+    .attribution{
+        text-align: left;
+    }
+}
